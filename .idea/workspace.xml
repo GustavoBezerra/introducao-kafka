@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48cc4a6f-5e93-40bc-8331-fb84180c2ce4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/LogService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ecommerce.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/EmailService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/FraudDetectorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/FraudDetectorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaDispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaDispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/LogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/LogService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/NewOrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/NewOrderMain.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +40,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1VB9avFUDpMhK7oyu3DDknVhApS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ignore_missing_gitignore" value="true" />
@@ -47,19 +69,28 @@
       <recent name="br.com.alura.ecommerce" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.NewOrderMain">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
     <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.EmailService" />
       <module name="ecommerce" />
@@ -125,29 +156,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
-      <setting name="replType" value="NREPL" />
-      <setting name="execution" value="LEININGEN" />
-      <module name="" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="fixLineNumbers" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
-      <setting name="host" value="" />
-      <setting name="port" value="0" />
-      <setting name="replType" value="SOCKET" />
-      <setting name="configType" value="SPECIFY" />
-      <setting name="fixLineNumbers" value="false" />
-      <module name="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Application.FraudDetectorService (1)" />
       <item itemvalue="Application.EmailService" />
       <item itemvalue="Application.FraudDetectorService" />
       <item itemvalue="Application.LogService" />
@@ -157,10 +166,22 @@
       <list>
         <item itemvalue="Application.NewOrderMain" />
         <item itemvalue="Application.EmailService" />
-        <item itemvalue="Application.FraudDetectorService" />
         <item itemvalue="Application.LogService" />
+        <item itemvalue="Application.FraudDetectorService" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -187,5 +208,47 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="265" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1580676487138">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="768" y="265" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1580676487138" />
+    <state width="1874" height="292" key="GridCell.Tab.0.bottom" timestamp="1580677970510">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1874" height="292" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1580677970510" />
+    <state width="1874" height="292" key="GridCell.Tab.0.center" timestamp="1580677970507">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1874" height="292" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1580677970507" />
+    <state width="1874" height="292" key="GridCell.Tab.0.left" timestamp="1580677970506">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1874" height="292" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1580677970506" />
+    <state width="1874" height="292" key="GridCell.Tab.0.right" timestamp="1580677970509">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1874" height="292" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1580677970509" />
+    <state width="1874" height="312" key="GridCell.Tab.1.bottom" timestamp="1580675210681">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1874" height="312" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1580675210681" />
+    <state width="1874" height="312" key="GridCell.Tab.1.center" timestamp="1580675210681">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1874" height="312" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1580675210681" />
+    <state width="1874" height="312" key="GridCell.Tab.1.left" timestamp="1580675210680">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1874" height="312" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1580675210680" />
+    <state width="1874" height="312" key="GridCell.Tab.1.right" timestamp="1580675210681">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1874" height="312" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1580675210681" />
+    <state x="623" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1580676861763">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="268" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1580676861763" />
   </component>
 </project>
