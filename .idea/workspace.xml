@@ -2,27 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48cc4a6f-5e93-40bc-8331-fb84180c2ce4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/common-kafka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-email/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-email/service-email.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-fraud-detector/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-fraud-detector/service-fraud-detector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-log/service-log.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-new-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ecommerce.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/FraudDetectorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/FraudDetectorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaDispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaDispatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/LogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/LogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/NewOrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/NewOrderMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-email/src/main/java/br/com/alura/ecommerce/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-log/src/main/java/br/com/alura/ecommerce/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +57,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/common-kafka/src/main/java" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.alura.ecommerce" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.alura.ecommerce" />
     </key>
@@ -93,7 +98,7 @@
     </configuration>
     <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.EmailService" />
-      <module name="ecommerce" />
+      <module name="service-email" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -106,7 +111,7 @@
     </configuration>
     <configuration name="FraudDetectorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.FraudDetectorService" />
-      <module name="ecommerce" />
+      <module name="service-fraud-detector" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -132,7 +137,7 @@
     </configuration>
     <configuration name="LogService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.LogService" />
-      <module name="ecommerce" />
+      <module name="service-log" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -145,7 +150,7 @@
     </configuration>
     <configuration name="NewOrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.NewOrderMain" />
-      <module name="ecommerce" />
+      <module name="service-new-order" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -214,6 +219,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="768" y="265" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1580676487138" />
+    <state x="699" y="400" width="757" height="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580678757674">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="699" y="400" width="757" height="319" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1920.1040@0.40.1920.1040" timestamp="1580678757674" />
     <state width="1874" height="292" key="GridCell.Tab.0.bottom" timestamp="1580677970510">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -246,9 +255,17 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1874" height="312" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1580675210681" />
-    <state x="623" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1580676861763">
+    <state x="716" y="339" width="476" height="439" key="chooseDestDirectoryDialog" timestamp="1580678755933">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="623" y="268" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1580676861763" />
+    <state x="716" y="339" width="476" height="439" key="chooseDestDirectoryDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1580678755933" />
+    <state x="218" y="134" width="1474" height="847" key="new project wizard" timestamp="1580678726206">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="218" y="134" width="1474" height="847" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1580678726206" />
+    <state x="623" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1580678712850">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="268" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1580678712850" />
   </component>
 </project>
