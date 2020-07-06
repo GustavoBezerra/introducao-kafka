@@ -1,0 +1,15 @@
+Para iniciar o Kafka (estando no diretório do Kafka):
+
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+Em outra aba:
+
+$ bin/kafka-server-start.sh config/server.properties
+
+
+Endereço default: http://localhost:9092
+
+Isso pode ser alterado no server.properties
+
+---------------------------------------------------------------------------------------------------
+
